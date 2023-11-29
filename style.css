@@ -1,0 +1,77 @@
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+button {
+    padding: 15px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: medium;
+}
+
+.sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.container {
+    display: flex;
+    position: relative;
+    top: 120px;
+    left: 300px;
+}
+
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 450px;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+    height: 450px;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 450px;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
